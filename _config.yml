@@ -1,1 +1,28 @@
-theme: minimal-mistakes-jekyll
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+plugins: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
+
+# Setup
+title:            Anmol Kapoor
+tagline:          'My web space'
+description:      '~Working on tag line~'
+url:              http://anmolkapoor.in
+baseurl:          /
+
+author:
+  name:           'Anmol Kapoor'
+
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
