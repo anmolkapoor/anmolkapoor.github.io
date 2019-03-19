@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Anmol Kapoor</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2019-03-20T00:34:15+05:30</updated>
- <id>http://localhost:4000</id>
+ <link href="http://anmolkapoor.in/atom.xml" rel="self"/>
+ <link href="http://anmolkapoor.in/"/>
+ <updated>2019-03-20T01:11:04+05:30</updated>
+ <id>http://anmolkapoor.in</id>
  <author>
    <name>Anmol Kapoor</name>
    <email></email>
@@ -13,23 +13,11 @@
 
  
  <entry>
-   <title>Arxiv Topics</title>
-   <link href="http://localhost:4000/2019/03/19/arxiv-topics/"/>
+   <title>Arxiv-topics - Explore & Discover Research Papers on Arxiv repository using Topics Learned from Data</title>
+   <link href="http://anmolkapoor.in/2019/03/19/arxiv-topics/"/>
    <updated>2019-03-19T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2019/03/19/arxiv-topics</id>
-   <content type="html">
-&lt;hr /&gt;
-&lt;p&gt;layout: post
-title: Arxiv-topics
-—&lt;/p&gt;
-
-&lt;h1 id=&quot;arxiv-topics-explore--discover-research-papers-on-arxiv-repository-using-topics-learned-from-data&quot;&gt;Arxiv-topics: Explore &amp;amp; Discover Research Papers on Arxiv repository using Topics Learned from Data&lt;/h1&gt;
-&lt;p&gt;##&lt;/p&gt;
-
-&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
-&lt;h6 id=&quot;1-min-read&quot;&gt;(1 min read)&lt;/h6&gt;
-&lt;hr /&gt;
-&lt;p&gt;Arxiv repository [https://arxiv.org/] hosts 1.5m academic papers, and users add over 10K papers per month. Keeping track of trends is challenging as it is limited to keyword search, and does not let users track and explore content based on themes that capture relationships beyond shared words, or recommend content from this perspective. This challenged us to use unsupervised learning to learn topics to summarise documents, and let users explore and find research papers on similar topics.&lt;/p&gt;
+   <id>http://anmolkapoor.in/2019/03/19/arxiv-topics</id>
+   <content type="html">&lt;p&gt;Arxiv repository [https://arxiv.org/] hosts 1.5m academic papers, and users add over 10K papers per month. Keeping track of trends is challenging as it is limited to keyword search, and does not let users track and explore content based on themes that capture relationships beyond shared words, or recommend content from this perspective. This challenged us to use unsupervised learning to learn topics to summarise documents, and let users explore and find research papers on similar topics.&lt;/p&gt;
 
 &lt;p&gt;Our approach is divided in three steps:&lt;/p&gt;
 
@@ -57,37 +45,14 @@ Whats new in our approach is third step which now allow user to find research pa
 &lt;hr /&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-explore-arxiv-with-topic-modelling/blob/master/documents/report.pdf&quot;&gt;Detailed  Report PDF &lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;setting-up-on-local&quot;&gt;Setting up on Local&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;h5 id=&quot;installation&quot;&gt;Installation&lt;/h5&gt;
-
-&lt;p&gt;Set up a virtual environment and run 
-&lt;code class=&quot;highlighter-rouge&quot;&gt;cd CODE&lt;/code&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;pip install -r requirements.txt&lt;/code&gt;&lt;/p&gt;
-&lt;h5 id=&quot;execution&quot;&gt;Execution&lt;/h5&gt;
-&lt;p&gt;Run: 
-&lt;code class=&quot;highlighter-rouge&quot;&gt;cd web&lt;/code&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;FLASK_APP=app.py flask run&lt;/code&gt;&lt;/p&gt;
-&lt;h5 id=&quot;server-starts-on&quot;&gt;Server starts on&lt;/h5&gt;
-&lt;p&gt;Link: &lt;a href=&quot;http://127.0.0.1:5000/&quot;&gt;http://127.0.0.1:5000/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;content&quot;&gt;Content&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;/data&lt;/strong&gt;  : Contains gathered and cleaned documents and meta information from Arxiv api.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;/get_data&lt;/strong&gt; : Scripts required to gather,convert pdf to text and clean data from Arxiv api&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;/topic_modeling&lt;/strong&gt; : Dictionary and corpus creation scripts, LDA Topic modelling using gensim, experiments and their stored results.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;/web&lt;/strong&gt; : Web application for users. Explore data corpus, visualize different LDA topic models experiments and find similar documents based on topics&lt;/li&gt;
-&lt;/ul&gt;
-
 </content>
  </entry>
  
  <entry>
    <title>Kullback-Leibler Divergence Explained</title>
-   <link href="http://localhost:4000/2019/03/16/kullback-leibler-divergence-explained/"/>
+   <link href="http://anmolkapoor.in/2019/03/16/kullback-leibler-divergence-explained/"/>
    <updated>2019-03-16T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2019/03/16/kullback-leibler-divergence-explained</id>
+   <id>http://anmolkapoor.in/2019/03/16/kullback-leibler-divergence-explained</id>
    <content type="html">&lt;p&gt;This post is about comparing two probablistic distributions and the measure of loss of infromation that will happen if one is represented by other. In real world, proabibilty distributions depicts the probability of different variables that can be taken by a variable. For this example, we will consider probability distribution of decrete values of a variable. To relate to a situation lets go through an example.&lt;/p&gt;
 
 &lt;p&gt;Suppose in galaxy far far away, R2D2 was given a task by princess &amp;lt;#todo&amp;gt; to store th plans for the death star. These plans are the possible positions of the target quardrant, firing on which can detroy death star. Pricess gives the task to R2D2 to transmit this information to the rebels.&lt;/p&gt;
