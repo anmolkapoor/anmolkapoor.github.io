@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Arxiv-topics - Explore & Discover Research Papers on Arxiv repository using Topics Learned from Data &middot; Anmol Kapoor
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-0f">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Anmol Kapoor
+        </a>
+      </h1>
+      <p class="lead">~Working on tag line~</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+
+      <!--<a class="sidebar-nav-item" href="https://github.com/poole/hyde/archive/v2.1.0.zip">Download</a>-->
+      <!--<a class="sidebar-nav-item" href="https://github.com/poole/hyde">GitHub project</a>-->
+      <!--<span class="sidebar-nav-item">Currently v2.1.0</span>-->
+    </nav>
+
+    <p>&copy; 2019. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Arxiv-topics - Explore & Discover Research Papers on Arxiv repository using Topics Learned from Data</h1>
+  <span class="post-date">19 Mar 2019 | 11 minutes read</span>
+  <p>Arxiv repository [https://arxiv.org/] hosts 1.5m academic papers, and users add over 10K papers per month. Keeping track of trends is challenging as it is limited to keyword search, and does not let users track and explore content based on themes that capture relationships beyond shared words, or recommend content from this perspective. This challenged us to use unsupervised learning to learn topics to summarise documents, and let users explore and find research papers on similar topics.</p>
+
+<p>Our approach is divided in three steps:</p>
+
+<p>First, For the topic discovery we used LDA topic model. In simple terms, with given documents and their words, the purpose of LDA is to learn the representation of fixed number of topics from the corpus and their distribution. We also experimented with  with other topic models such as LSA, contrasted their result and found LDA topics to be more accurate and interpretable.</p>
+
+<p>Second, At the core of our web application, we use pyLDAvis, to visulaize and let user explore individual topics and its associated terms.
+Whats new in our approach is third step which now allow user to find research paper similar to its topic mix. For example, a user reading research paper on theme of Computer vision and Human Computer Interaction. can easily find another paper around same theme.</p>
+
+<p>For experiments we  download 26,000 research papers through arxiv api[https://arxiv.org/help/api/index], lemmatised them, applied stemming, and examined top 1000 keywords manually</p>
+
+<p>To evaluate a topic model, we calculated Topic coherence which is measures of topic consistency. Since it is unsupervised learning for our experiments we generated visualisations of over a topic range from 3 to 100. Experiment resulted in topics which are diverse yet well defined and can be given well defined names like Language, LifeScience, Theory etc.</p>
+
+<h2 id="quick-walkthrough-video-with-demo">Quick walkthrough video with demo</h2>
+<h6 id="3-min-watch">(3 min watch)</h6>
+<hr />
+<p><a href="https://www.youtube.com/watch?v=grQj8xCZtdo" title="Quick walkthrough video with demo  - Click to Watch!"><img src="https://raw.githubusercontent.com/anmolkapoor/project-explore-arxiv-with-topic-modelling/master/documents/youtube-video-screenshot.png" alt="You tube screenshot" /></a></p>
+
+<h2 id="running-app-demo-on-heroku">Running app demo (on Heroku)</h2>
+<h6 id="please-allow-30-sec-to-wake-up-sleepingzzz-dyno">(Please allow 30 sec to wake up sleeping(zzz…) dyno</h6>
+<hr />
+<p><a href="https://boiling-thicket-31500.herokuapp.com/" title="Demo on Heroku  - Click to view!"><img src="https://raw.githubusercontent.com/anmolkapoor/project-explore-arxiv-with-topic-modelling/master/documents/demo-screenshot.png" alt="Demo screenshot" /></a></p>
+
+<h2 id="detailed-project-details">Detailed project details</h2>
+<h6 id="15-min-read">15 min read</h6>
+<hr />
+<p><a href="https://github.com/anmolkapoor/project-explore-arxiv-with-topic-modelling/blob/master/documents/report.pdf">Detailed  Report PDF </a></p>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2019/03/16/kullback-leibler-divergence-explained/">
+            Kullback-Leibler Divergence Explained
+            <small>16 Mar 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>
