@@ -27,6 +27,16 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136694841-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136694841-1');
+</script>
+
 </head>
 
 
@@ -84,7 +94,7 @@
     <div class="content container">
       <div class="post">
   <h1 class="post-title">Arxiv-topics - Explore & Discover Research Papers on Arxiv repository using Topics Learned from Data</h1>
-  <span class="post-date">19 Mar 2019 | 11 minutes read</span>
+  <span class="post-date">19 Mar 2019 | 5 minutes read</span>
   <p>Arxiv repository [https://arxiv.org/] hosts 1.5m academic papers, and users add over 10K papers per month. Keeping track of trends is challenging as it is limited to keyword search, and does not let users track and explore content based on themes that capture relationships beyond shared words, or recommend content from this perspective. This challenged us to use unsupervised learning to learn topics to summarise documents, and let users explore and find research papers on similar topics.</p>
 
 <p>Our approach is divided in three steps:</p>
