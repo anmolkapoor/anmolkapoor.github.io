@@ -13,7 +13,7 @@ title:            Anmol Kapoor
 tagline:          'My web space'
 description:      '~Working on tag line~'
 url:              http://anmolkapoor.in
-baseurl:          /
+#baseurl:          /
 
 author:
   name:           'Anmol Kapoor'
