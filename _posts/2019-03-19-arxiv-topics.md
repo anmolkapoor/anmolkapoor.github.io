@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Arxiv-topics - Explore & Discover Research Papers on Arxiv repository using Topics Learned from Data
-read_minutes: 5
+read_minutes: 2
 ---
 
 Arxiv repository [https://arxiv.org/] hosts 1.5m academic papers, and users add over 10K papers per month. Keeping track of trends is challenging as it is limited to keyword search, and does not let users track and explore content based on themes that capture relationships beyond shared words, or recommend content from this perspective. This challenged us to use unsupervised learning to learn topics to summarise documents, and let users explore and find research papers on similar topics.

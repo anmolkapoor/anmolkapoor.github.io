@@ -4,7 +4,9 @@ highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 paginate_path: "page:num"
 
@@ -17,7 +19,6 @@ url:              http://anmolkapoor.in
 
 author:
   name:           'Anmol Kapoor'
-
 
 paginate:         5
 
