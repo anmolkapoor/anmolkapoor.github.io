@@ -2,6 +2,11 @@
 layout: post
 title: Kullback-Leibler Divergence Explained
 read_minutes: 3
+side_bar_image: /public/images/header_2.jpg
+one_liner: How and when to compare two probability distributions. Article glancing on information loss and possible applications.
+project_github_repo: https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data
+project_live_demo: https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data
+
 ---
 This post is about comparing two probablistic distributions and the measure of loss of infromation that will happen if one is represented by other. In real world, proabibilty distributions depicts the probability of different variables that can be taken by a variable. For this example, we will consider probability distribution of decrete values of a variable. To relate to a situation lets go through an example.
 

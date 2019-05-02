@@ -4,13 +4,313 @@
  <title>Anmol Kapoor</title>
  <link href="http://anmolkapoor.in/atom.xml" rel="self"/>
  <link href="http://anmolkapoor.in/"/>
- <updated>2019-04-30T23:54:10+05:30</updated>
+ <updated>2019-05-02T20:33:29+05:30</updated>
  <id>http://anmolkapoor.in</id>
  <author>
    <name>Anmol Kapoor</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Technical Analysis with Indicators and building a ML based trading strategy (2/2)</title>
+   <link href="http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/"/>
+   <updated>2019-05-02T00:00:00+05:30</updated>
+   <id>http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2</id>
+   <content type="html">&lt;p&gt;Work in progress.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Technical Analysis with Indicators and building a ML based trading strategy (1/2)</title>
+   <link href="http://anmolkapoor.in/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1/"/>
+   <updated>2019-05-01T00:00:00+05:30</updated>
+   <id>http://anmolkapoor.in/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1</id>
+   <content type="html">&lt;p&gt;Technical indicators are heuristic or mathematical calculations based on the price, volume, or open interest of a security or contract used by traders who follow technical analysis. By analysing historical data, technical analysts use indicators to predict future price movements. Using these predictions, analysts create strategies that they would apply to trade a security in order to make profit.&lt;/p&gt;
+
+&lt;p&gt;In this post, we will be discussing:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Three examples of Technical indicators, namely Simple moving average, Momentum and Bollinger Bands®.&lt;/li&gt;
+  &lt;li&gt;Strategy and how to view them as trade orders.&lt;/li&gt;
+  &lt;li&gt;Create a Theoretically optimal strategy if we can see future stock prices.&lt;/li&gt;
+  &lt;li&gt;Create a Manual Strategy based on indicators.&lt;/li&gt;
+  &lt;li&gt;Compare and  analysis of two strategies.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Since the above indicators are based on rolling window, we have taken 30 Days as the rolling window size.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;simple-moving-average&quot;&gt;Simple Moving average&lt;/h3&gt;
+
+&lt;p&gt;SMA is the moving average calculated by sum of adjusted closing price of a stock over the window and diving over size of the window.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SMA[t] = price[t − N: t] . mean()&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;SMA can be used as a proxy the true value of the company stock. For large deviations from the price, we can expect the price to come back to the SMA over a period of time. This can create a BUY and SELL opportunity when optimised over a threshold.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/Normalized%20Price%20%26%20Simple%20Moving%20Average.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/Normalized%20Price%20%26%20Simple%20Moving%20Average.png&quot; alt=&quot;SMA Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;momentum&quot;&gt;Momentum&lt;/h3&gt;
+
+&lt;p&gt;Momentum refers to the rate of change in the adjusted close price of the s. It can be calculated :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Momentum[t] = (price[t] / price[t − N])-1&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The value of momentum can be used an indicator, and can be used as a intuition that future price may follow the inertia. That means that if a stock price is going up with a high momentum, we can use this as a signal for BUY opportunity as it can go up further in future.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/Normalized%20Price%20%26%20Momentum.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/Normalized%20Price%20%26%20Momentum.png&quot; alt=&quot;Momentum Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;bollinger-bands&quot;&gt;Bollinger Bands®&lt;/h3&gt;
+
+&lt;p&gt;Bollinger Bands (developed by John Bollinger) is the plot of two bands two sigma away from the simple moving average. They can be calculated as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;upper_band = sma + standard_deviation * 2&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;lower_band = sma - standard_deviation * 2&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If we plot the Bollinger Bands with the price for a time period:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/Normalized%20Price%20%26%20Bollinger%20bands.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/Normalized%20Price%20%26%20Bollinger%20bands.png&quot; alt=&quot;BB Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We can find trading opportunity as SELL where price is entering the upper band from outside the upper band, and BUY where price is lower than the lower band and moving towards the SMA from outside. This movement inlines with our indication that price will oscillate from SMA, but will come back to SMA and can be used as trading opportunities.&lt;/p&gt;
+
+&lt;h1 id=&quot;strategy-and-trade-orders&quot;&gt;Strategy and Trade orders&lt;/h1&gt;
+&lt;p&gt;For our discussion, let us assume we are trading a stock in market over a period of time. Trading of a stock, in its simplistic form means we can either sell, buy or hold our stocks in portfolio. These commands issued are orders that let us trade the stock over the exchange. Thus, these trade orders can be of type:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;SHORT  or SELL . eg: SHORT JPM 1000&lt;/li&gt;
+  &lt;li&gt;LONG or BUY. eg; LONG JPM 1000&lt;/li&gt;
+  &lt;li&gt;HOLD. which is holding the stocks in our portfolio.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For simplicity of discussion, lets assume, we can only issue these three commands SHORT, LONG and HOLD for our stock JPM, and our portfolio can either be in these three states at a given time:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;+1000 ( We have 1000 JPM stocks in portfolio)&lt;/li&gt;
+  &lt;li&gt;0 ( We have no JPM stocks in portfolio)&lt;/li&gt;
+  &lt;li&gt;-1000 (We have short 1000 JPM stocks and attributed them in our portfolio)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;theoretically-optimal-strategy&quot;&gt;Theoretically Optimal Strategy&lt;/h1&gt;
+
+&lt;p&gt;Lets assume we can foresee the future price and our tasks is create a strategy that can make profit. A simple strategy is to sell as much as there is possibility in the portfolio ( SHORT till portfolio reaches -1000) and if price is going up in future buy as much as there is possibility in the portfolio( LONG till portfolio reaches +1000)&lt;/p&gt;
+
+&lt;p&gt;Pseudo code:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+Is_price_going_up = price[today+1] - price[today]
+
+if is_price_going_up:
+    do_buy_trade
+else:
+    do_sell_trade
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Results:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Date Range: 2008-01-01 to 2009-12-31&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Theoretical Strategy&lt;/th&gt;
+      &lt;th&gt;Benchmark&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cumulative return&lt;/td&gt;
+      &lt;td&gt;5.7861&lt;/td&gt;
+      &lt;td&gt;0.0123&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stdev of daily returns&lt;/td&gt;
+      &lt;td&gt;0.00454782319791&lt;/td&gt;
+      &lt;td&gt;0.0170043662712&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Average of daily returns&lt;/td&gt;
+      &lt;td&gt;0.00381678615086&lt;/td&gt;
+      &lt;td&gt;0.000168086978191&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Final Portfolio Value&lt;/td&gt;
+      &lt;td&gt;678610.0&lt;/td&gt;
+      &lt;td&gt;101230.0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/TheoreticallyOptimalStrategy.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/TheoreticallyOptimalStrategy.png&quot; alt=&quot;Theoritical Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;manual-rule-based-trader&quot;&gt;Manual Rule-Based Trader&lt;/h3&gt;
+
+&lt;p&gt;Now consider we did not have power to see the future value of stock (that will be the case always), can we create a strategy that will use the three indicators described to predict the future. Let’s call it ManualStrategy which will be based on some rules over our indicators. We have applied the following strategy using 3 indicators : Bollinger Bands, Momentum and Volatility using Price Vs SMA.&lt;/p&gt;
+
+&lt;p&gt;Strategy:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+If price_yesterday was above upper_band_yesterday and price_today is below upper_band_today:
+    do_sell_trade
+Else if price_yesterday was below lower_band_yesterday and price_today is above lower_band_today:
+    do_buy_trade
+Else if price_today &amp;gt; sma_today and difference(price_today, sma_today)&amp;gt; threshold:
+    do_sell_trade
+Else if price_today&amp;lt;sma_today and difference(sma_today,price_today) &amp;gt; threshold:
+    do_buy_trade
+Else if momentum_today &amp;gt; threshold_positive
+    do_buy_trade
+Else if momentum_today&amp;lt;theshold_negative
+    do_sell_trade
+Else No_trade
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Results:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Date Range: 2008-01-01 to 2009-12-31&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Manual Strategy&lt;/th&gt;
+      &lt;th&gt;Benchmark&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cumulative return&lt;/td&gt;
+      &lt;td&gt;0.358969602112&lt;/td&gt;
+      &lt;td&gt;0.0123&lt;/td&gt;
+      &lt;td&gt;\&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stdev of daily returns&lt;/td&gt;
+      &lt;td&gt;0.0129419160091&lt;/td&gt;
+      &lt;td&gt;0.0170043662712&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Average of daily returns&lt;/td&gt;
+      &lt;td&gt;0.000692144738531&lt;/td&gt;
+      &lt;td&gt;0.000168086978191&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Final Portfolio Value&lt;/td&gt;
+      &lt;td&gt;135884.05&lt;/td&gt;
+      &lt;td&gt;101230.0&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/ManualStrategy-Train.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/ManualStrategy-Train.png&quot; alt=&quot;ManualStrategy&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;comparative-analysis&quot;&gt;Comparative Analysis&lt;/h1&gt;
+
+&lt;p&gt;Here are the statistics comparing in-sample data:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Date: 2008-01-01 to 2009-12-31&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Manual Strategy&lt;/th&gt;
+      &lt;th&gt;Benchmark&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cumulative return&lt;/td&gt;
+      &lt;td&gt;0.358969602112&lt;/td&gt;
+      &lt;td&gt;0.0123&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stdev of daily returns&lt;/td&gt;
+      &lt;td&gt;0.0129419160091&lt;/td&gt;
+      &lt;td&gt;0.0170043662712&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Average of daily returns&lt;/td&gt;
+      &lt;td&gt;0.000692144738531&lt;/td&gt;
+      &lt;td&gt;0.000168086978191&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Final Portfolio Value&lt;/td&gt;
+      &lt;td&gt;135884.05&lt;/td&gt;
+      &lt;td&gt;101230.0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;For out-sample:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Date: 2010-01-01 2011-12-31&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Manual Strategy&lt;/th&gt;
+      &lt;th&gt;Benchmark&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cumulative return&lt;/td&gt;
+      &lt;td&gt;0.0111025547427&lt;/td&gt;
+      &lt;td&gt;-0.0834&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stdev of daily returns&lt;/td&gt;
+      &lt;td&gt;0.00832245137396&lt;/td&gt;
+      &lt;td&gt;0.0084810074988&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Average of daily returns&lt;/td&gt;
+      &lt;td&gt;5.6467518872e-05&lt;/td&gt;
+      &lt;td&gt;-0.000137203160195\&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Final Portfolio Value&lt;/td&gt;
+      &lt;td&gt;101100.65&lt;/td&gt;
+      &lt;td&gt;91660.0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;why-there-is-a-difference-in-performance&quot;&gt;Why there is a difference in performance:&lt;/h4&gt;
+
+&lt;p&gt;The manual strategy works well for the train period as we were able to tweak the different thresholds like window size, buy and selling threshold for momentum and volatility. The tweaked parameters did not work very well. Our bets on a large window size was not correct and even though the price went up, the huge lag in reflection on SMA and Momentum, was not able to give correct BUY and SELL opportunity on time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/ManualStrategy-Test.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/ManualStrategy-Test.png&quot; alt=&quot;ManualStrategy-test&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;now-that-we-have-found-that-our-rule-based-strategy-was-not-very-optimum-can-we-apply-machine-learning-to-learn-optimal-rules-and-achieve-better-results&quot;&gt;Now that we have found that our rule based strategy was not very optimum, can we apply machine learning to learn optimal rules and achieve better results.&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/&quot;&gt;Read the next part of the series to create a machine learning based strategy over technical indicators and its comparative analysis over the rule based strategy&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Arxiv-topics - Explore & Discover Research Papers on Arxiv repository using Topics Learned from Data</title>

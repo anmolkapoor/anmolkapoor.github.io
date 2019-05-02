@@ -1,7 +1,12 @@
 ---
 layout: post
 title: Arxiv-topics - Explore & Discover Research Papers on Arxiv repository using Topics Learned from Data
-read_minutes: 2
+read_minutes: 5
+side_bar_image: /public/images/header_1.png
+one_liner: A new way of exploring Arxiv respository using topic generation using LDA ( ML model). Quick demo video and live working interactive web application.
+project_github_repo: https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data
+project_live_demo: https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data
+
 ---
 
 Arxiv repository [https://arxiv.org/] hosts 1.5m academic papers, and users add over 10K papers per month. Keeping track of trends is challenging as it is limited to keyword search, and does not let users track and explore content based on themes that capture relationships beyond shared words, or recommend content from this perspective. This challenged us to use unsupervised learning to learn topics to summarise documents, and let users explore and find research papers on similar topics.

@@ -3,17 +3,22 @@ layout: default
 ---
 {{content}}
 <div>
-    
+
     {% for post in site.posts %}
     <div id="post_element">
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+            <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape
+                }}</a>
         </h2>
         <span class="post-date">{{ post.date | date_to_string }} | {{ post.read_minutes }} minutes read</span>
+        {% if post.one_liner != nil %}
+        <span>{{ post.one_liner }}</span>
+        {% else %}
+        <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
+        {% endif  %}
 
-        <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>        
-      </div>      
-      <hr>
+    </div>
+    <hr>
     {% endfor %}
 
 </div>

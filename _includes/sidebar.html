@@ -1,5 +1,5 @@
 <div class='sidebar header-image'
-     style="background-image: url(/public/images/header_1.png);top:0;left:0;bottom:0;right:0;background-size:cover;background-position:center;background-repeat:no-repeat;-webkit-transition:opacity .4s ease-in-out;-moz-transition:opacity .4s ease-in-out;-ms-transition:opacity .4s ease-in-out;-o-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out">
+     style="background-image: url({{page.side_bar_image}});top:0;left:0;bottom:0;right:0;background-size:cover;background-position:center;background-repeat:no-repeat;-webkit-transition:opacity .4s ease-in-out;-moz-transition:opacity .4s ease-in-out;-ms-transition:opacity .4s ease-in-out;-o-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out">
 
     <div class="container sidebar-sticky">
         <div class="sidebar-about">
@@ -14,7 +14,6 @@
         <nav class="sidebar-nav">
             <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}"
                href='{{ "/" | relative_url }}'>Home</a>
-
             {% comment %}
             The code below dynamically generates a sidebar nav of pages with
             `layout: page` in the front-matter. See readme for usage.
