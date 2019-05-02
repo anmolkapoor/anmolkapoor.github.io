@@ -4,7 +4,7 @@
  <title>Anmol Kapoor</title>
  <link href="http://anmolkapoor.in/atom.xml" rel="self"/>
  <link href="http://anmolkapoor.in/"/>
- <updated>2019-05-02T20:42:51+05:30</updated>
+ <updated>2019-05-02T22:13:50+05:30</updated>
  <id>http://anmolkapoor.in</id>
  <author>
    <name>Anmol Kapoor</name>
@@ -22,7 +22,7 @@
  </entry>
  
  <entry>
-   <title>Technical Analysis with Indicators and building a ML based trading strategy (1/2)</title>
+   <title>Technical Analysis with Indicators and building a ML based trading strategy (Part 1 of 2)</title>
    <link href="http://anmolkapoor.in/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1/"/>
    <updated>2019-05-01T00:00:00+05:30</updated>
    <id>http://anmolkapoor.in/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1</id>
@@ -51,7 +51,7 @@
 
 &lt;p&gt;SMA can be used as a proxy the true value of the company stock. For large deviations from the price, we can expect the price to come back to the SMA over a period of time. This can create a BUY and SELL opportunity when optimised over a threshold.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/Normalized%20Price%20%26%20Simple%20Moving%20Average.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/Normalized%20Price%20%26%20Simple%20Moving%20Average.png&quot; alt=&quot;SMA Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/Normalized%20Price%20%26%20Simple%20Moving%20Average.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/Normalized%20Price%20%26%20Simple%20Moving%20Average.png&quot; alt=&quot;SMA Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;momentum&quot;&gt;Momentum&lt;/h3&gt;
 
@@ -63,7 +63,7 @@
 
 &lt;p&gt;The value of momentum can be used an indicator, and can be used as a intuition that future price may follow the inertia. That means that if a stock price is going up with a high momentum, we can use this as a signal for BUY opportunity as it can go up further in future.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/Normalized%20Price%20%26%20Momentum.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/Normalized%20Price%20%26%20Momentum.png&quot; alt=&quot;Momentum Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/Normalized%20Price%20%26%20Momentum.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/Normalized%20Price%20%26%20Momentum.png&quot; alt=&quot;Momentum Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;bollinger-bands&quot;&gt;Bollinger Bands®&lt;/h3&gt;
 
@@ -79,7 +79,7 @@
 
 &lt;p&gt;If we plot the Bollinger Bands with the price for a time period:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/Normalized%20Price%20%26%20Bollinger%20bands.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/Normalized%20Price%20%26%20Bollinger%20bands.png&quot; alt=&quot;BB Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/Normalized%20Price%20%26%20Bollinger%20bands.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/Normalized%20Price%20%26%20Bollinger%20bands.png&quot; alt=&quot;BB Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;We can find trading opportunity as SELL where price is entering the upper band from outside the upper band, and BUY where price is lower than the lower band and moving towards the SMA from outside. This movement inlines with our indication that price will oscillate from SMA, but will come back to SMA and can be used as trading opportunities.&lt;/p&gt;
 
@@ -152,7 +152,7 @@ else:
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/TheoreticallyOptimalStrategy.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/TheoreticallyOptimalStrategy.png&quot; alt=&quot;Theoritical Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/TheoreticallyOptimalStrategy.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/TheoreticallyOptimalStrategy.png&quot; alt=&quot;Theoritical Chart&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;manual-rule-based-trader&quot;&gt;Manual Rule-Based Trader&lt;/h3&gt;
 
@@ -220,7 +220,7 @@ Else No_trade
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/ManualStrategy-Train.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/ManualStrategy-Train.png&quot; alt=&quot;ManualStrategy&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/ManualStrategy-Train.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/ManualStrategy-Train.png&quot; alt=&quot;ManualStrategy&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;comparative-analysis&quot;&gt;Comparative Analysis&lt;/h1&gt;
 
@@ -304,7 +304,7 @@ Else No_trade
 
 &lt;p&gt;The manual strategy works well for the train period as we were able to tweak the different thresholds like window size, buy and selling threshold for momentum and volatility. The tweaked parameters did not work very well. Our bets on a large window size was not correct and even though the price went up, the huge lag in reflection on SMA and Momentum, was not able to give correct BUY and SELL opportunity on time.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/ManualStrategy-Test.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/ManualStrategy-Test.png&quot; alt=&quot;ManualStrategy-test&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/ManualStrategy-Test.png&quot;&gt;&lt;img src=&quot;https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/ManualStrategy-Test.png&quot; alt=&quot;ManualStrategy-test&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;now-that-we-have-found-that-our-rule-based-strategy-was-not-very-optimum-can-we-apply-machine-learning-to-learn-optimal-rules-and-achieve-better-results&quot;&gt;Now that we have found that our rule based strategy was not very optimum, can we apply machine learning to learn optimal rules and achieve better results.&lt;/h5&gt;
 &lt;p&gt;&lt;a href=&quot;/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/&quot;&gt;Read the next part of the series to create a machine learning based strategy over technical indicators and its comparative analysis over the rule based strategy&lt;/a&gt;.&lt;/p&gt;
@@ -314,36 +314,36 @@ Else No_trade
  
  <entry>
    <title>Arxiv-topics - Explore & Discover Research Papers on Arxiv repository using Topics Learned from Data</title>
-   <link href="http://anmolkapoor.in/2019/03/19/arxiv-topics/"/>
+   <link href="http://anmolkapoor.in/2019/03/19/Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling/"/>
    <updated>2019-03-19T00:00:00+05:30</updated>
-   <id>http://anmolkapoor.in/2019/03/19/arxiv-topics</id>
-   <content type="html">&lt;p&gt;Arxiv repository [https://arxiv.org/] hosts 1.5m academic papers, and users add over 10K papers per month. Keeping track of trends is challenging as it is limited to keyword search, and does not let users track and explore content based on themes that capture relationships beyond shared words, or recommend content from this perspective. This challenged us to use unsupervised learning to learn topics to summarise documents, and let users explore and find research papers on similar topics.&lt;/p&gt;
+   <id>http://anmolkapoor.in/2019/03/19/Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://arxiv.org/&quot;&gt; Arxiv repository https://arxiv.org/ &lt;/a&gt; hosts 1.5m academic papers, and users add over 10K papers per month. Keeping track of trends is challenging as it is limited to keyword search, and does not let users track and explore content based on themes that capture relationships beyond shared words, or recommend content from this perspective. This challenged us to use unsupervised learning to learn topics to summarise documents, and let users explore and find research papers on similar topics.&lt;/p&gt;
 
 &lt;p&gt;Our approach is divided in three steps:&lt;/p&gt;
 
 &lt;p&gt;First, For the topic discovery we used LDA topic model. In simple terms, with given documents and their words, the purpose of LDA is to learn the representation of fixed number of topics from the corpus and their distribution. We also experimented with  with other topic models such as LSA, contrasted their result and found LDA topics to be more accurate and interpretable.&lt;/p&gt;
 
-&lt;p&gt;Second, At the core of our web application, we use pyLDAvis, to visulaize and let user explore individual topics and its associated terms.
+&lt;p&gt;Second, At the core of our web application, we use pyLDAvis, to visualize and let user explore individual topics and its associated terms.
 Whats new in our approach is third step which now allow user to find research paper similar to its topic mix. For example, a user reading research paper on theme of Computer vision and Human Computer Interaction. can easily find another paper around same theme.&lt;/p&gt;
 
-&lt;p&gt;For experiments we  download 26,000 research papers through arxiv api[https://arxiv.org/help/api/index], lemmatised them, applied stemming, and examined top 1000 keywords manually&lt;/p&gt;
+&lt;p&gt;For experiments we  download 26,000 research papers through &lt;a href=&quot;https://arxiv.org/help/api/index&quot;&gt;Arxiv api https://arxiv.org/help/api/index&lt;/a&gt;, lemmatised them, applied stemming, and examined top 1000 keywords manually&lt;/p&gt;
 
 &lt;p&gt;To evaluate a topic model, we calculated Topic coherence which is measures of topic consistency. Since it is unsupervised learning for our experiments we generated visualisations of over a topic range from 3 to 100. Experiment resulted in topics which are diverse yet well defined and can be given well defined names like Language, LifeScience, Theory etc.&lt;/p&gt;
 
 &lt;h2 id=&quot;quick-walkthrough-video-with-demo&quot;&gt;Quick walkthrough video with demo&lt;/h2&gt;
 &lt;h6 id=&quot;3-min-watch&quot;&gt;(3 min watch)&lt;/h6&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=grQj8xCZtdo&quot; title=&quot;Quick walkthrough video with demo  - Click to Watch!&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/anmolkapoor/project-explore-arxiv-with-topic-modelling/master/documents/youtube-video-screenshot.png&quot; alt=&quot;You tube screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=grQj8xCZtdo&quot; title=&quot;Quick walkthrough video with demo  - Click to Watch!&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/anmolkapoor/explore-arxiv-using-lda-gensim-topic-modelling/master/documents/youtube-video-screenshot.png&quot; alt=&quot;You tube screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;running-app-demo-on-heroku&quot;&gt;Running app demo (on Heroku)&lt;/h2&gt;
 &lt;h6 id=&quot;please-allow-30-sec-to-wake-up-sleepingzzz-dyno&quot;&gt;(Please allow 30 sec to wake up sleeping(zzz…) dyno&lt;/h6&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://boiling-thicket-31500.herokuapp.com/&quot; title=&quot;Demo on Heroku  - Click to view!&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/anmolkapoor/project-explore-arxiv-with-topic-modelling/master/documents/demo-screenshot.png&quot; alt=&quot;Demo screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://boiling-thicket-31500.herokuapp.com/&quot; title=&quot;Demo on Heroku  - Click to view!&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/anmolkapoor/explore-arxiv-using-lda-gensim-topic-modelling/master/documents/demo-screenshot.png&quot; alt=&quot;Demo screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;detailed-project-details&quot;&gt;Detailed project details&lt;/h2&gt;
 &lt;h6 id=&quot;15-min-read&quot;&gt;15 min read&lt;/h6&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/project-explore-arxiv-with-topic-modelling/blob/master/documents/report.pdf&quot;&gt;Detailed  Report PDF &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/anmolkapoor/explore-arxiv-using-lda-gensim-topic-modelling/blob/master/documents/report.pdf&quot;&gt;Detailed  Report PDF &lt;/a&gt;&lt;/p&gt;
 
 </content>
  </entry>
