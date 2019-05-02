@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6d30a98-b45f-40aa-9f5b-8cd66f8fdd69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-05-02-Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/header_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_drafts/2019-03-25-Technical-Analysis-Using-Indicators-On-Stock-Data.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-05-01-Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/test_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/test_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-16-kullback-leibler-divergence-explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-16-kullback-leibler-divergence-explained.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-19-arxiv-topics.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-19-arxiv-topics.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/03/16/kullback-leibler-divergence-explained/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/16/kullback-leibler-divergence-explained/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/03/19/arxiv-topics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/19/arxiv-topics/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/atom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="e6d30a98-b45f-40aa-9f5b-8cd66f8fdd69" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +74,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-05-01-Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="482">
-                <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
+              <first_editor relative-caret-position="150">
+                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="184" />
               </first_editor>
               <second_editor />
             </state>
@@ -279,18 +261,17 @@
       <option name="presentableId" value="Default" />
       <updated>1553023907489</updated>
       <workItem from="1556645226989" duration="2085000" />
-      <workItem from="1556799898908" duration="4646000" />
+      <workItem from="1556799898908" duration="4836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6731000" />
+    <option name="totallyTimeSpent" value="6921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="949" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23992674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23992674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -304,7 +285,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27421236" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.6989498" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -471,8 +452,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-05-01-Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="482">
-            <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
+          <first_editor relative-caret-position="150">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="184" />
           </first_editor>
           <second_editor />
         </state>
