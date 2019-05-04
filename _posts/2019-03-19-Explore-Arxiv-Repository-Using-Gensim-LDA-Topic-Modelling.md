@@ -2,7 +2,7 @@
 layout: post
 title: Arxiv-topics - Explore & Discover Research Papers on Arxiv repository using Topics Learned from Data
 read_minutes: 5
-side_bar_image: /public/images/header_7.jpg
+side_bar_image: /public/images/header_2.jpg
 one_liner: A new way of exploring Arxiv respository using topic generation using LDA ( ML model). Quick demo video and live working interactive web application.
 project_github_repo: https://github.com/anmolkapoor/explore-arxiv-using-lda-gensim-topic-modelling
 project_live_demo_website: https://boiling-thicket-31500.herokuapp.com/

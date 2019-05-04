@@ -35,4 +35,6 @@ defaults:
   values:
     read_minutes: 9
     author: "Anmol Kapoor"
-    side_bar_image: /public/images/header_1.jpg
+    single_side_bar_image: /public/images/header_0.jpg
+    side_bar_image: /public/images/header_0.jpg
+    use_different_side_bar_image: true

@@ -2,7 +2,7 @@
 layout: post
 title: Kullback-Leibler Divergence Explained
 read_minutes: 3
-side_bar_image: /public/images/header_2.jpg
+side_bar_image: /public/images/header_1.jpg
 one_liner: How and when to compare two probability distributions. Article glancing on information loss and possible applications.
 project_github_repo: https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data
 #project_live_demo: https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data

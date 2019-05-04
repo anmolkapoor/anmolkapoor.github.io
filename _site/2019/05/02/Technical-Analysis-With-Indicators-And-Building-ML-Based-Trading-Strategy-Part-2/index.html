@@ -11,7 +11,7 @@
 
   <title>
     
-      Technical Analysis with Indicators and building a ML based trading strategy (2/2) &middot; Anmol Kapoor
+      Technical Analysis with Indicators and building a ML based trading strategy (Part 2 of 2) &middot; Anmol Kapoor
     
   </title>
 
@@ -39,20 +39,20 @@
 </script>
 
   <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Technical Analysis with Indicators and building a ML based trading strategy (2/2) | Anmol Kapoor</title>
+<title>Technical Analysis with Indicators and building a ML based trading strategy (Part 2 of 2) | Anmol Kapoor</title>
 <meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="Technical Analysis with Indicators and building a ML based trading strategy (2/2)" />
+<meta property="og:title" content="Technical Analysis with Indicators and building a ML based trading strategy (Part 2 of 2)" />
 <meta name="author" content="Anmol Kapoor" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Work in progress." />
-<meta property="og:description" content="Work in progress." />
+<meta name="description" content="Part 2 of the Technical indicator series with quick recap of technical indicators, formulating trading problem as machine learning problem and comparative analysis between benchmark, manual rule based strategy and machine learning strategy" />
+<meta property="og:description" content="Part 2 of the Technical indicator series with quick recap of technical indicators, formulating trading problem as machine learning problem and comparative analysis between benchmark, manual rule based strategy and machine learning strategy" />
 <link rel="canonical" href="http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/" />
 <meta property="og:url" content="http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/" />
 <meta property="og:site_name" content="Anmol Kapoor" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-05-02T00:00:00+05:30" />
 <script type="application/ld+json">
-{"description":"Work in progress.","author":{"@type":"Person","name":"Anmol Kapoor"},"@type":"BlogPosting","url":"http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/","headline":"Technical Analysis with Indicators and building a ML based trading strategy (2/2)","dateModified":"2019-05-02T00:00:00+05:30","datePublished":"2019-05-02T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/"},"@context":"http://schema.org"}</script>
+{"description":"Part 2 of the Technical indicator series with quick recap of technical indicators, formulating trading problem as machine learning problem and comparative analysis between benchmark, manual rule based strategy and machine learning strategy","author":{"@type":"Person","name":"Anmol Kapoor"},"@type":"BlogPosting","url":"http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/","headline":"Technical Analysis with Indicators and building a ML based trading strategy (Part 2 of 2)","dateModified":"2019-05-02T00:00:00+05:30","datePublished":"2019-05-02T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -61,7 +61,11 @@
 <body class="theme-base-personal">
 
 <div class='sidebar header-image'
-     style="background-image: url(/public/images/header_3.jpg);top:0;left:0;bottom:0;right:0;background-size:cover;background-position:center;background-repeat:no-repeat;-webkit-transition:opacity .4s ease-in-out;-moz-transition:opacity .4s ease-in-out;-ms-transition:opacity .4s ease-in-out;-o-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out">
+     style="background-image: url(
+     
+        /public/images/header_4.jpg
+     
+     );top:0;left:0;bottom:0;right:0;background-size:cover;background-position:center;background-repeat:no-repeat;-webkit-transition:opacity .4s ease-in-out;-moz-transition:opacity .4s ease-in-out;-ms-transition:opacity .4s ease-in-out;-o-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out">
 
     <div class="container sidebar-sticky">
 
@@ -119,12 +123,12 @@
 
 <div class="content container">
     <div class="post">
-    <h1 class="post-title">Technical Analysis with Indicators and building a ML based trading strategy (2/2)</h1>
+    <h1 class="post-title">Technical Analysis with Indicators and building a ML based trading strategy (Part 2 of 2)</h1>
     <span class="post-meta-data-area">
-            <span class="post-date">02 May 2019 | 3 minutes read</span>
+            <span class="post-date">02 May 2019 | 4 minutes read</span>
             
                 <span class="post-meta-data-icon">
-                    <a href="https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data" class="square_btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://github.com/anmolkapoor/building-ml-trading-strategy-using-decision-tree-with-bagging" class="square_btn"><i class="fab fa-github"></i> Code</a>
                 </span>
             
             
@@ -138,7 +142,164 @@
 
 
 
-    <p>Work in progress.</p>
+    <p>Part 2 of the Technical indicator series with quick recap of technical indicators, formulating trading problem as machine learning problem and comparative analysis between benchmark, manual rule based strategy and machine learning strategy</p>
+
+<p>A quick recap from the last post, we established, technical indicators as heuristic based on the price, volume, or open interest of a security or contract. By analysing historical data, technical analysts use indicators to predict future price movements. Using these predictions, analysts create strategies that they would apply to trade a security in order to make profit. We looked upon three such indicators : Simple Moving average, Momentum and Bollinger Bands®. We created a rule based manual strategy strategy and checked it portfolio performance.</p>
+
+<p>In this post, we will be discussing:</p>
+<ul>
+  <li>Understanding Random Decision Tree and Bagging.</li>
+  <li>How to formulate the trading problem as machine learning problem.</li>
+  <li>Train our machine learning model and create a machine learning strategy called as StrategyLearner.</li>
+  <li>Comparative Analysis of Benchmark, Manual Strategy and Strategy Learner.</li>
+</ul>
+
+<h2 id="decision-trees-and-bagging">Decision Trees and Bagging</h2>
+<p>Decision tree is a type of supervised learning algorithm (having a pre-defined target variable) that is mostly used in classification problems. It works for both categorical and continuous input and output variables. In this technique, we split the population or sample into two or more homogeneous sets (or sub-populations) based on most significant splitter / differentiator in input variables.
+Types of decision tree is based on the type of target variable we have. It can be of two types:</p>
+<ul>
+  <li>Categorical Variable Decision Tree: Decision Tree which has categorical target variable then it called as categorical variable decision tree. E.g.:-  Target variable was “Is it raining today” i.e. YES or NO.</li>
+  <li>Continuous Variable Decision Tree: Decision Tree has continuous target variable then it is called as Continuous Variable Decision Tree.</li>
+</ul>
+
+<p><a href="https://github.com/anmolkapoor/building-ml-trading-strategy-using-decision-tree-with-bagging/raw/master/images/decision_tree.png"><img src="https://github.com/anmolkapoor/building-ml-trading-strategy-using-decision-tree-with-bagging/raw/master/images/decision_tree.png" alt="Decision Tree" /></a></p>
+
+<h4 id="advantages-">Advantages :</h4>
+<ul>
+  <li>Easy to Understand</li>
+  <li>Easy to generate rules</li>
+</ul>
+
+<h4 id="disadvantages">Disadvantages:</h4>
+<ul>
+  <li>May suffer from overfitting.</li>
+  <li>Classifies by rectangle partitioning.</li>
+  <li>Can be quite large, pruning is necessary.</li>
+</ul>
+
+<h3 id="bagging-or-bootstrap-aggregation">Bagging or Bootstrap Aggregation</h3>
+<p>Bootstrap aggregating, also called bagging, is a machine learning ensemble meta-algorithm designed to improve the stability and accuracy of machine learning algorithms used in statistical classification and regression. It also reduces variance and helps to avoid overfitting. Although it is usually applied to decision tree methods, it can be used with any type of method. Bagging is a special case of the model averaging approach.</p>
+
+<h3 id="random-decision-trees">Random Decision Trees</h3>
+<p>Algorithms to create decision trees try to choose and split the feature which divides into 2 segments with maximum information gain. Information gain calculation can be complex compute problem which can increase the training time when using multiple decision trees in bagging. For our strategy we will be using Random Decision Trees, which at every step randomly chooses the feature to split on during training. This much faster and can give almost similar accuracy when bagged with multiple such random decision trees.</p>
+
+<h2 id="steps-to-frame-the-trading-problem-as-machine-learning-problem">Steps to frame the trading problem as machine learning problem</h2>
+<p>For a learning problem, the system should have a train and a test scenario. I have used the BagLearner (leaf_size =5, bags=20) with RTLearner for my StrategyLearner.</p>
+
+<p>To frame the training procedure, following steps were taken:</p>
+<ol>
+  <li>Get Symbol data using Utility for in-sample period.</li>
+  <li>Get values for the Indicators for the prices.</li>
+  <li>Combine to form X_train data set.</li>
+  <li>With a chosen N value, create Y_train data set. Using price change ratio:</li>
+</ol>
+
+<blockquote>
+  <p>price_change = (price[t+N] - price[t] ) / price[t]</p>
+</blockquote>
+
+<p>Classify into:</p>
+<ul>
+  <li>+1 or “LONG” for day = t</li>
+  <li>-1 or “SHORT” for day = t</li>
+  <li>0 or “CASH” in case non of a) and b)</li>
+</ul>
+
+<ol>
+  <li>Train BagLearner using X_train and Y_train data with addEvidence procedure.</li>
+</ol>
+
+<p>To frame the test procedure, following steps were taken:</p>
+<ol>
+  <li>Get Symbol data using Utility for out-sample period.</li>
+  <li>Get values for the Indicators for the prices.</li>
+  <li>Combine to form X_test data set.</li>
+  <li>Test and generate Y_test using query procedure over BagLearner.</li>
+  <li>Convert +1, -1 and 0 to trades with portfolio position always +1000, 0 or -1000.</li>
+</ol>
+
+<p>Quick Recap of Indicators used:</p>
+
+<h5 id="1-simple-moving-average-sma">1. Simple Moving Average (SMA)</h5>
+<p>SMA is the moving average calculated by sum of adjusted closing price of a stock over the window and diving over size of the window.</p>
+
+<blockquote>
+  <p>SMA[t] = price[t − N: t] . mean()</p>
+</blockquote>
+
+<h5 id="2-momentum">2. Momentum</h5>
+<p>Momentum refers to the rate of change in the adjusted close price of the s. It can be calculated :</p>
+<blockquote>
+  <p>Momentum[t] = (price[t] / price[t − N])-1</p>
+</blockquote>
+
+<h5 id="3-bollinger-bands">3. Bollinger Bands®</h5>
+<p>Bollinger Bands (developed by John Bollinger) is the plot of two bands two sigma away from the simple moving average. They can be calculated as:</p>
+
+<blockquote>
+  <p>upper_band = sma + standard_deviation * 2 
+lower_band = sma - standard_deviation * 2</p>
+</blockquote>
+
+<h3 id="comparative-analysis">Comparative analysis</h3>
+<p>For all three : StrategyLearner, ManualStrategy and Benchmark</p>
+<ul>
+  <li>Sample data used is in-sample data from January 1,2008 to December 31, 2009</li>
+  <li>Start value as 100000.</li>
+  <li>Impact used as 0.00 and Commission used as 0.00</li>
+  <li>Benchmark if we buy 1000 JPM shares and hold them throughout the period.</li>
+</ul>
+
+<p>For StrategyLearner, parameters:</p>
+<ul>
+  <li>BagLearner with RT Learner. Bags = 20</li>
+  <li>RTLearner, leaf_size = 5</li>
+  <li>Mode was used in RTLearner at leaves.</li>
+  <li>Mode was used in BagLearner to take vote between all RTLearner in the bag</li>
+</ul>
+
+<p><a href="https://github.com/anmolkapoor/building-ml-trading-strategy-using-decision-tree-with-bagging/raw/master/images/experiment_1_graph.png"><img src="https://github.com/anmolkapoor/building-ml-trading-strategy-using-decision-tree-with-bagging/raw/master/images/experiment_1_graph.png" alt="Results Image" /></a>
+As we can see from the plot, Manual Strategy is little better than Benchmark, but Strategy learner using machine learned strategy is able to outperform. Statistical results comparing the three:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Benchmark</th>
+      <th>ManualStrategy</th>
+      <th>StrategyLearner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cumulative return</td>
+      <td>0.0123</td>
+      <td>0.4641</td>
+      <td>2.4648</td>
+    </tr>
+    <tr>
+      <td>Standard Deviation</td>
+      <td>0.017004</td>
+      <td>0.012419</td>
+      <td>0.007978</td>
+    </tr>
+    <tr>
+      <td>Average Daily Return</td>
+      <td>0.000168</td>
+      <td>0.000833</td>
+      <td>0.002500</td>
+    </tr>
+    <tr>
+      <td>Final Portfolio Value</td>
+      <td>101,230.00</td>
+      <td>146,410.00</td>
+      <td>346,480.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This concludes our series of introduction to technical indicators, creating a manual rule base strategy using them and creating a ML based strategy to learn those rules. At every step we compared and analyse our strategies and their performance.</p>
+
 
 </div>
 
