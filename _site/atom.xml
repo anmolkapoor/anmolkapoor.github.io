@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Anmol Kapoor</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2019-05-04T17:06:22+05:30</updated>
- <id>http://localhost:4000</id>
+ <link href="http://anmolkapoor.in/atom.xml" rel="self"/>
+ <link href="http://anmolkapoor.in/"/>
+ <updated>2019-05-04T17:19:06+05:30</updated>
+ <id>http://anmolkapoor.in</id>
  <author>
    <name>Anmol Kapoor</name>
    <email></email>
@@ -14,18 +14,18 @@
  
  <entry>
    <title>Technical Analysis with Indicators and building a ML based trading strategy (2/2)</title>
-   <link href="http://localhost:4000/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/"/>
+   <link href="http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/"/>
    <updated>2019-05-02T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2</id>
+   <id>http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2</id>
    <content type="html">&lt;p&gt;Work in progress.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Technical Analysis with Indicators and building a ML based trading strategy (Part 1 of 2)</title>
-   <link href="http://localhost:4000/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1/"/>
+   <link href="http://anmolkapoor.in/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1/"/>
    <updated>2019-05-01T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1</id>
+   <id>http://anmolkapoor.in/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1</id>
    <content type="html">&lt;p&gt;Technical indicators are heuristic or mathematical calculations based on the price, volume, or open interest of a security or contract used by traders who follow technical analysis. By analysing historical data, technical analysts use indicators to predict future price movements. Using these predictions, analysts create strategies that they would apply to trade a security in order to make profit.&lt;/p&gt;
 
 &lt;p&gt;In this post, we will be discussing:&lt;/p&gt;
@@ -314,9 +314,9 @@ Else No_trade
  
  <entry>
    <title>Arxiv-topics - Explore & Discover Research Papers on Arxiv repository using Topics Learned from Data</title>
-   <link href="http://localhost:4000/2019/03/19/Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling/"/>
+   <link href="http://anmolkapoor.in/2019/03/19/Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling/"/>
    <updated>2019-03-19T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2019/03/19/Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling</id>
+   <id>http://anmolkapoor.in/2019/03/19/Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://arxiv.org/&quot;&gt; Arxiv repository https://arxiv.org/ &lt;/a&gt; hosts 1.5m academic papers, and users add over 10K papers per month. Keeping track of trends is challenging as it is limited to keyword search, and does not let users track and explore content based on themes that capture relationships beyond shared words, or recommend content from this perspective. This challenged us to use unsupervised learning to learn topics to summarise documents, and let users explore and find research papers on similar topics.&lt;/p&gt;
 
 &lt;p&gt;Our approach is divided in three steps:&lt;/p&gt;
@@ -350,9 +350,9 @@ Whats new in our approach is third step which now allow user to find research pa
  
  <entry>
    <title>Kullback-Leibler Divergence Explained</title>
-   <link href="http://localhost:4000/2019/03/16/kullback-leibler-divergence-explained/"/>
+   <link href="http://anmolkapoor.in/2019/03/16/kullback-leibler-divergence-explained/"/>
    <updated>2019-03-16T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2019/03/16/kullback-leibler-divergence-explained</id>
+   <id>http://anmolkapoor.in/2019/03/16/kullback-leibler-divergence-explained</id>
    <content type="html">&lt;p&gt;This post is about comparing two probablistic distributions and the measure of loss of infromation that will happen if one is represented by other. In real world, proabibilty distributions depicts the probability of different variables that can be taken by a variable. For this example, we will consider probability distribution of decrete values of a variable. To relate to a situation lets go through an example.&lt;/p&gt;
 
 &lt;p&gt;Suppose in galaxy far far away, R2D2 was given a task by princess &amp;lt;#todo&amp;gt; to store th plans for the death star. These plans are the possible positions of the target quardrant, firing on which can detroy death star. Pricess gives the task to R2D2 to transmit this information to the rebels.&lt;/p&gt;

@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6d30a98-b45f-40aa-9f5b-8cd66f8fdd69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/icons/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/jupyter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/test_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/test_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-16-kullback-leibler-divergence-explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-16-kullback-leibler-divergence-explained.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-19-Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-19-Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-05-01-Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-05-01-Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-05-02-Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-05-02-Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/03/16/kullback-leibler-divergence-explained/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/16/kullback-leibler-divergence-explained/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/03/19/Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/19/Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1/index.html" afterDir="false" />
@@ -24,9 +13,7 @@
       <change beforePath="$PROJECT_DIR$/_site/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/atom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/public/css/hyde.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/public/css/hyde.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/public/css/poole.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/public/css/poole.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/hyde.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/hyde.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/poole.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/poole.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,17 +75,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/poole.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="489" column="23" lean-forward="true" selection-start-line="489" selection-start-column="23" selection-end-line="489" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="490" column="1" lean-forward="true" selection-start-line="490" selection-start-column="1" selection-end-line="490" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="298">
+              <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -125,18 +121,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/hyde.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1077">
+            <state relative-caret-position="253">
               <caret line="254" column="1" lean-forward="true" selection-start-line="254" selection-start-column="1" selection-end-line="254" selection-end-column="1" />
             </state>
           </provider>
@@ -171,8 +158,8 @@
       <find>button</find>
       <find>font</find>
       <find>font-size</find>
-      <find>contain</find>
       <find>container</find>
+      <find>contain</find>
     </findStrings>
     <replaceStrings>
       <replace>https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images</replace>
@@ -200,7 +187,6 @@
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_posts/2019-05-01-Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy.md" />
         <option value="$PROJECT_DIR$/_posts/2019-03-19-arxiv-topics.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/public/css/hyde.css" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
@@ -208,10 +194,11 @@
         <option value="$PROJECT_DIR$/_posts/2019-05-02-Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2.md" />
         <option value="$PROJECT_DIR$/_posts/2019-05-01-Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1.md" />
         <option value="$PROJECT_DIR$/_posts/2019-03-19-Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling.md" />
-        <option value="$PROJECT_DIR$/public/css/poole.css" />
         <option value="$PROJECT_DIR$/_layouts/test_home.html" />
         <option value="$PROJECT_DIR$/_includes/sidebar.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/public/css/poole.css" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -329,12 +316,12 @@
       <workItem from="1556799898908" duration="8887000" />
       <workItem from="1556821468543" duration="3018000" />
       <workItem from="1556955153920" duration="226000" />
-      <workItem from="1556965618129" duration="3350000" />
+      <workItem from="1556965618129" duration="3632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17566000" />
+    <option name="totallyTimeSpent" value="17848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="949" extended-state="0" />
@@ -354,7 +341,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32905483" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.42473745" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.42473745" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -431,13 +418,6 @@
     <entry file="file://$PROJECT_DIR$/public/images/header_6.gif" />
     <entry file="file://$PROJECT_DIR$/public/images/header_2.gif" />
     <entry file="file://$PROJECT_DIR$/public/images/header_7.gif" />
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/header_1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -540,20 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/poole.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="489" column="23" lean-forward="true" selection-start-line="489" selection-start-column="23" selection-end-line="489" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/hyde.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1077">
-          <caret line="254" column="1" lean-forward="true" selection-start-line="254" selection-start-column="1" selection-end-line="254" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -573,8 +539,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="298">
+          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/hyde.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="254" column="1" lean-forward="true" selection-start-line="254" selection-start-column="1" selection-end-line="254" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/poole.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="490" column="1" lean-forward="true" selection-start-line="490" selection-start-column="1" selection-end-line="490" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
