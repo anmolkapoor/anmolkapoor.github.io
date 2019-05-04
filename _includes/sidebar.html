@@ -2,6 +2,8 @@
      style="background-image: url({{page.side_bar_image}});top:0;left:0;bottom:0;right:0;background-size:cover;background-position:center;background-repeat:no-repeat;-webkit-transition:opacity .4s ease-in-out;-moz-transition:opacity .4s ease-in-out;-ms-transition:opacity .4s ease-in-out;-o-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out">
 
     <div class="container sidebar-sticky">
+
+
         <div class="sidebar-about">
             <h1>
                 <a href='{{ "/" | relative_url }}'>
@@ -12,6 +14,8 @@
         </div>
 
         <nav class="sidebar-nav">
+
+
             <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}"
                href='{{ "/" | relative_url }}'>Home</a>
             {% comment %}
@@ -29,9 +33,7 @@
             {% endif %}
             {% endfor %}
 
-            <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>-->
-            <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>-->
-            <!--<span class="sidebar-nav-item">Currently v{{ site.version }}</span>-->
+
         </nav>
 
         <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

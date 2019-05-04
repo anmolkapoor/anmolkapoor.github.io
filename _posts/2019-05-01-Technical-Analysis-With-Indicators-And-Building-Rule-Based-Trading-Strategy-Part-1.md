@@ -4,7 +4,7 @@ title: Technical Analysis with Indicators and building a ML based trading strate
 read_minutes: 7
 one_liner: Part 1 of the Technical indicator series with quick introduction to technical indicators and building and comparing a strategy based on technical indicators.
 project_github_repo: https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data
-project_live_demo: https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data
+project_live_demo_notebook: https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data
 side_bar_image: /public/images/header_6.jpg
 ---
 Technical indicators are heuristic or mathematical calculations based on the price, volume, or open interest of a security or contract used by traders who follow technical analysis. By analysing historical data, technical analysts use indicators to predict future price movements. Using these predictions, analysts create strategies that they would apply to trade a security in order to make profit.

@@ -10,12 +10,36 @@ layout: default
             <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape
                 }}</a>
         </h2>
-        <span class="post-date">{{ post.date | date_to_string }} | {{ post.read_minutes }} minutes read</span>
+        <span class="post-meta-data-area">
+            <span class="post-date">{{ post.date | date_to_string }} | {{ post.read_minutes }} minutes read</span>
+            {% if post.project_github_repo != nil %}
+                <span class="post-meta-data-icon">
+                    <a href="{{post.project_github_repo}}" class="square_btn"><i class="fab fa-github"></i> Code</a>
+                </span>
+            {% endif %}
+            {% if post.project_live_demo_website != nil %}
+                <span class="post-meta-data-icon">
+                    <a href="{{post.project_live_demo_website}}" class="square_btn"><i class="fas fa-laptop-code"></i> Demo Site</a>
+                </span>
+            {% endif %}
+            {% if post.project_live_demo_notebook != nil %}
+                <span class="post-meta-data-icon">
+                    <a href="{{post.project_live_demo_notebook}}" class="square_btn"><i class="fab fa-python"></i> Python Notebook</a>
+                </span>
+            {% endif %}
+            {% if post.project_video != nil %}
+                <span class="post-meta-data-icon">
+                    <a href="{{post.project_video}}" class="square_btn"><i class="fab fa-youtube"></i> Demo Video</a>
+                </span>
+            {% endif %}
+
+
+        </span>
         {% if post.one_liner != nil %}
         <span>{{ post.one_liner }}</span>
         {% else %}
         <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
-        {% endif  %}
+        {% endif %}
 
     </div>
     <hr>
