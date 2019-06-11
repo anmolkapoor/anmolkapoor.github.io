@@ -39,3 +39,4 @@ defaults:
     side_bar_image: /public/images/header_0.jpg
     use_different_side_bar_image: true
     comments: true
+    resume_link: /public/files/Anmol_kapoor_resume_website.pdf
