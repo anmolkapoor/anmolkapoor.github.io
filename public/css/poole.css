@@ -527,3 +527,31 @@ a.pagination-item:hover {
 /*.post-side-bar-button:hover {*/
 /*  background-color: RoyalBlue;*/
 /*}*/
+
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-pic {
+  /*display: inline;*/
+  /*margin: 0 auto;*/
+  /*height: 100%;*/
+  /*width: auto;*/
+}
+.post-about-me-layout{
+    display: flex;
+}
+.post-about-me-text{
+
+    margin: 1rem 1rem 1rem 1rem;
+
+}
+.post-about-me-image{
+
+    margin: -2rem 1rem 1rem 0rem;
+
+}

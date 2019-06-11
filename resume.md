@@ -4,6 +4,7 @@ title: Resume
 show_on_side_bar_menu: true
 show_on_side_bar_icon: far fa-file-pdf
 ---
+
 <div>
 <a href="{{page.resume_link}}" class="square_btn"><i class="far fa-file-pdf"></i> Open as PDF </a>
 </div>
