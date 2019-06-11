@@ -5,7 +5,7 @@ show_on_side_bar_menu: true
 show_on_side_bar_icon: far fa-file-pdf
 ---
 <div>
-<a href="{{page.resume_link}}" download="Anmol_Kapoor_Resume.pdf" class="square_btn"><i class="far fa-file-pdf"></i> Download PDF </a>
+<a href="{{page.resume_link}}" class="square_btn"><i class="far fa-file-pdf"></i> Open as PDF </a>
 </div>
 
 
