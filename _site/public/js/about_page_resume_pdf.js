@@ -26,9 +26,9 @@ loadingTask.promise.then(function (pdf) {
         var context = canvas.getContext('2d');
 
 
-        var viewport = page.getViewport(1);
+        var viewport = page.getViewport({scale:1});
         var scale = container.clientWidth / viewport.width;
-        viewport = page.getViewport(scale);
+        viewport = page.getViewport({scale:scale});
 
         canvas.height = viewport.height;
         canvas.width = viewport.width;
