@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b23ffd-2ba4-415c-9e25-cec89b220663" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/03/16/kullback-leibler-divergence-explained/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/16/kullback-leibler-divergence-explained/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/03/19/Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/19/Explore-Arxiv-Repository-Using-Gensim-LDA-Topic-Modelling/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/05/01/Technical-Analysis-With-Indicators-And-Building-Rule-Based-Trading-Strategy-Part-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/atom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/public/js/about_page_resume_pdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/public/js/about_page_resume_pdf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/resume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/resume/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/about_page_resume_pdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/about_page_resume_pdf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/small_about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/small_about_me.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/about_page_resume_pdf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            <state relative-caret-position="360">
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -95,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/small_about_me.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="195">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -182,9 +168,9 @@
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/resume.md" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
-        <option value="$PROJECT_DIR$/_includes/small_about_me.html" />
         <option value="$PROJECT_DIR$/_site/public/js/about_page_resume_pdf.js" />
         <option value="$PROJECT_DIR$/public/js/about_page_resume_pdf.js" />
+        <option value="$PROJECT_DIR$/_includes/small_about_me.html" />
       </list>
     </option>
   </component>
@@ -291,14 +277,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/files" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/icons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/_posts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/public/files" />
-      <recent name="$PROJECT_DIR$/public/icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,12 +322,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36172000" />
+    <option name="totallyTimeSpent" value="36465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="949" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,7 +342,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32905483" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32905483" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32905483" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -612,13 +599,6 @@
     <entry file="file://$PROJECT_DIR$/_site/resume/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/small_about_me.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/public/js/about_page_resume_pdf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -628,8 +608,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/about_page_resume_pdf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        <state relative-caret-position="360">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/small_about_me.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
