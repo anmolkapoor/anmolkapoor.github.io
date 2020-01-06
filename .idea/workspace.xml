@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69b23ffd-2ba4-415c-9e25-cec89b220663" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/small_about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/small_about_me.html" afterDir="false" />
-    </list>
+    <list default="true" id="69b23ffd-2ba4-415c-9e25-cec89b220663" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +177,7 @@
     <option name="width" value="1680" />
     <option name="height" value="949" />
   </component>
+  <component name="ProjectId" id="1W0vCPeIf3WHAOiL5eSAJdoGwBq" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -268,7 +267,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_site/public/files" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -322,11 +321,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36465000" />
+    <option name="totallyTimeSpent" value="36825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="949" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
