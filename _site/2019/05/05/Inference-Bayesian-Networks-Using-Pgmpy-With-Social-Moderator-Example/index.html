@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href='/public/apple-touch-icon-144-precomposed.png'>
                                  <link rel="shortcut icon" href='/public/favicon.ico'>
@@ -46,15 +47,18 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="In this quick notebook, we will be discussing Bayesian Statisitcs over Bayesian Networks and Inferencing them using Pgmpy Python library. Bayesian statistics is a theory in the field of statistics based on the Bayesian interpretation of probability where probability expresses a degree of belief in an event, which can change as new information is gathered, rather than a fixed value based upon frequency or propensity.Bayesian statistical methods use Bayes’ theorem to compute and update probabilities after obtaining new data. Bayes’ theorem describes the conditional probability of an event based on data as well as prior information or beliefs about the event or conditions related to the event." />
 <meta property="og:description" content="In this quick notebook, we will be discussing Bayesian Statisitcs over Bayesian Networks and Inferencing them using Pgmpy Python library. Bayesian statistics is a theory in the field of statistics based on the Bayesian interpretation of probability where probability expresses a degree of belief in an event, which can change as new information is gathered, rather than a fixed value based upon frequency or propensity.Bayesian statistical methods use Bayes’ theorem to compute and update probabilities after obtaining new data. Bayes’ theorem describes the conditional probability of an event based on data as well as prior information or beliefs about the event or conditions related to the event." />
-<link rel="canonical" href="http://anmolkapoor.in/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/" />
-<meta property="og:url" content="http://anmolkapoor.in/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/" />
+<link rel="canonical" href="http://localhost:4000/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/" />
+<meta property="og:url" content="http://localhost:4000/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/" />
 <meta property="og:site_name" content="Anmol Kapoor" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-05-05T00:00:00+05:30" />
 <script type="application/ld+json">
-{"description":"In this quick notebook, we will be discussing Bayesian Statisitcs over Bayesian Networks and Inferencing them using Pgmpy Python library. Bayesian statistics is a theory in the field of statistics based on the Bayesian interpretation of probability where probability expresses a degree of belief in an event, which can change as new information is gathered, rather than a fixed value based upon frequency or propensity.Bayesian statistical methods use Bayes’ theorem to compute and update probabilities after obtaining new data. Bayes’ theorem describes the conditional probability of an event based on data as well as prior information or beliefs about the event or conditions related to the event.","author":{"@type":"Person","name":"Anmol Kapoor"},"@type":"BlogPosting","url":"http://anmolkapoor.in/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/","headline":"Create and Inference Bayesian Networks using Pgmpy with Example","dateModified":"2019-05-05T00:00:00+05:30","datePublished":"2019-05-05T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://anmolkapoor.in/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/"},"@context":"http://schema.org"}</script>
+{"datePublished":"2019-05-05T00:00:00+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/"},"dateModified":"2019-05-05T00:00:00+05:30","author":{"@type":"Person","name":"Anmol Kapoor"},"description":"In this quick notebook, we will be discussing Bayesian Statisitcs over Bayesian Networks and Inferencing them using Pgmpy Python library. Bayesian statistics is a theory in the field of statistics based on the Bayesian interpretation of probability where probability expresses a degree of belief in an event, which can change as new information is gathered, rather than a fixed value based upon frequency or propensity.Bayesian statistical methods use Bayes’ theorem to compute and update probabilities after obtaining new data. Bayes’ theorem describes the conditional probability of an event based on data as well as prior information or beliefs about the event or conditions related to the event.","@type":"BlogPosting","url":"http://localhost:4000/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/","headline":"Create and Inference Bayesian Networks using Pgmpy with Example","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+
+
+  
 </head>
 
 
@@ -117,13 +121,13 @@
 
         </nav>
 
-        <p>&copy; 2019. All rights reserved.</p>
+        <p>&copy; 2020. All rights reserved.</p>
     </div>
 </div>
 
 
 <div class="content container">
-    <div class="post">
+    <div class="post" id="post_container">
     <h1 class="post-title">Create and Inference Bayesian Networks using Pgmpy with Example</h1>
     <span class="post-meta-data-area">
             <span class="post-date">05 May 2019 | 4 minutes read</span>
@@ -143,6 +147,7 @@
 
         </span>
 
+    
 
     <p>In this quick notebook, we will be discussing Bayesian Statisitcs over Bayesian Networks and Inferencing them using Pgmpy Python library.
 Bayesian statistics is a theory in the field of statistics based on the Bayesian interpretation of probability where probability expresses a degree of belief in an event, which can change as new information is gathered, rather than a fixed value based upon frequency or propensity.Bayesian statistical methods use Bayes’ theorem to compute and update probabilities after obtaining new data. Bayes’ theorem describes the conditional probability of an event based on data as well as prior information or beliefs about the event or conditions related to the event.</p>
@@ -326,9 +331,9 @@ Requirement already satisfied: decorator&gt;=3.4.0 in /anaconda3/lib/python3.7/s
     <h2><i class="far fa-user"></i> About me</h2>
     <div class="post-about-me-layout">
         <div class="post-about-me-text">
-            <h4><i>Tech Lead ( SDE IV ) @Flipkart (India) and pursuing Masters in CS [ML & AI] @Georgia Tech (Atlanta)</i></h4>
+            <h4><i>Engineering Manager @Flipkart (India) and pursuing Masters in CS [ML & AI] @Georgia Tech (Atlanta)</i></h4>
             7+ years of professional experience in software design and development for large scale applications. Along
-            side work, pursuing Masters in Computer Science from Georgia Tech in Machine Learning and Artificial
+            with work, pursuing Masters in Computer Science from Georgia Tech in Machine Learning and Artificial
             Intelligence. Expertise in leading agile team with scrum and project management.
         </div>
         <div class="post-about-me-image">
@@ -373,25 +378,6 @@ Requirement already satisfied: decorator&gt;=3.4.0 in /anaconda3/lib/python3.7/s
         
     </ul>
 </div>
-
-<div id="disqus_thread"></div>
-<script>
-
-    var disqus_config = function () {
-        this.page.url = "http://anmolkapoor.in/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example/";
-        this.page.identifier = "/2019/05/05/Inference-Bayesian-Networks-Using-Pgmpy-With-Social-Moderator-Example";
-    };
-
-    (function () { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://http-anmolkapoor-in.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-    Disqus.</a></noscript>
-
 
 
 </div>

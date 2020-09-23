@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-<div class="post">
+<div class="post" id="post_container">
     <h1 class="post-title">{{ page.title }}</h1>
     <span class="post-meta-data-area">
             <span class="post-date">{{ page.date | date_to_string }} | {{ page.read_minutes }} minutes read</span>
@@ -30,6 +29,11 @@ layout: default
 
         </span>
 
+    {% if page.research_paper_on_page %}
+
+        {% include research_paper_addition.html %}
+
+    {% endif %}
 
     {{ content }}
 </div>

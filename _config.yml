@@ -16,7 +16,7 @@ title:            Anmol Kapoor
 tagline:          'My web space'
 description:      '~Working on tag line~'
 url:              http://anmolkapoor.in
-#baseurl:          /
+baseurl:          /
 
 author:
   name:           'Anmol Kapoor'
@@ -38,5 +38,5 @@ defaults:
     single_side_bar_image: /public/images/header_0.jpg
     side_bar_image: /public/images/header_0.jpg
     use_different_side_bar_image: true
-    comments: true
+    comments: false
     resume_link: /public/files/Anmol_kapoor_resume_website.pdf

@@ -1,0 +1,17 @@
+<iframe id="paper"
+        src="https://docs.google.com/viewer?srcid={{page.research_paper_on_page}}&pid=explorer&efh=false&a=v&chrome=false&embedded=true"
+        width="580px" height="480px" style="margin : 10px 50px 10px 10px "></iframe>
+<script>
+    postContainerSize = document.getElementById("post_container").clientWidth;
+    console.log(postContainerSize);
+    if (postContainerSize < 700) {
+        document.getElementById("paper").style.width = (postContainerSize - 50) + "px";
+    } else {
+        document.getElementById("paper").style.width = "700px";
+        document.getElementById("paper").style.float = "left";
+    }
+    newValue = document.getElementById("paper").style.width;
+    console.log(newValue);
+
+    console.log("done");
+</script>
